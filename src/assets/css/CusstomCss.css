@@ -1,0 +1,214 @@
+.bg_gallary {
+  background-image: url("https://bizweb.dktcdn.net/100/508/659/themes/939030/assets/bg-premium.jpg?1710404714890");
+  background-size: cover;
+  background-position: center center;
+}
+
+* {
+  font-family: Roboto;
+}
+.title_decs {
+  border-top: solid 1px #f7f7f7;
+}
+.title_decs::before {
+  display: block;
+  position: absolute;
+  content: "»";
+  font-size: 24px;
+  height: 1px;
+  left: 0;
+  top: -22px;
+  /* width: 100%; */
+  /* border: solid 1px #f7f7f7; */
+  /* background-color: red; */
+}
+.title_decs::after {
+  position: absolute;
+  display: block;
+  content: "★★★★★";
+  height: 12px;
+  top: -15px;
+  color: red;
+  right: 0;
+  z-index: 10;
+  font-size: 18px;
+}
+
+.owlRatting .owl-stage-outer {
+  padding: 20px 0;
+}
+@keyframes popup {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.owl_productNew .owl-nav button {
+  position: absolute;
+  top: 40%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  /* padding: 10px!important; */
+  border-radius: 100% !important;
+  background-color: #fff !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.owl_productNew .owl-nav .owl-next {
+  right: -25px;
+}
+.owl_productNew .owl-nav .owl-prev {
+  left: -25px;
+}
+.owl_productNew .owl-nav button:hover {
+  background-color: brown !important;
+  border-radius: 100%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.owl_productNew .owl-nav button span {
+  font-size: 30px;
+  display: inline-block;
+  width: 100%;
+}
+/* .owl_productNew .owl-next span {
+  content: "";
+} */
+.item_infoService::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 10px 15px 10px;
+  background: #fff2ea;
+  z-index: -1;
+  top: 8px;
+  left: 17px;
+  transition: all 0.7s;
+  animation: 5s ease-in-out 0s normal none infinite running fade_infoService;
+}
+@keyframes fade_infoService {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(4px, -4px);
+  }
+  62% {
+    transform: translate(-4px, 4px);
+  }
+  75% {
+    transform: translate(4px, -4px);
+  }
+  85% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.menu_acc::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  z-index: 40;
+  border-left: solid 1px #ebebeb;
+  border-bottom: solid 1px #ebebeb;
+  position: absolute;
+  transform: rotate(135deg);
+  background: #fff;
+  top: -10px;
+  right: 5px;
+}
+.thumbnail.active {
+  border: 1px solid black;
+}
+.cus_radio:checked {
+  background-size: 8em 2em !important;
+  background-color: transparent !important;
+}
+.boxCheck_Size {
+  width: 10px !important;
+  height: 10px !important;
+  margin-bottom: 30px !important;
+}
+.ant-slider-track {
+  background-color: brown !important;
+  height: 2px !important;
+  margin-top: 3px !important;
+}
+.ant-slider-handle::after {
+  width: 15px !important;
+  height: 15px !important;
+  box-shadow: 0 0 0 2px brown !important;
+}
+.ant-slider-rail {
+  margin-top: 3px !important;
+}
+/* .googlemap {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  padding-bottom: 0;
+  width: 100%;
+  height: 450px;
+}
+
+.google-iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+} */
+.text-justify p {
+  padding-bottom: 20px;
+}
+.flag-dropdown {
+  right: 0 !important;
+}
+.selected-flag {
+  padding: 0 0 0 15px !important;
+  width: 48px !important;
+}
+input.form-control {
+  width: 87% !important;
+  padding-left: 10px !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+  border-radius: 5px 0 0px 5px !important;
+}
+input.form-control:focus {
+  border: 1px solid #66afe9 !important;
+  box-shadow: 0 0 0 1px #66afe9 !important;
+}
+.ant-select-single {
+  height: 45px !important;
+}
+.modal-action{
+  margin-top: 0!important;
+}
